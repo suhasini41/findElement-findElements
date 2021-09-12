@@ -1,0 +1,11 @@
+findElement() :
+---------------------
+	The findElement() method returns the first webElement that matches with the locator.
+The return type of findElement() is webelement.
+If no matching webElement found, it throws NoSuchElementException.
+
+findElements() :
+------------------
+	It returns all the webElements of the web page that matches with the locator.
+The return type of findElements() is the List<WebElement>.
+If no webElement matches with the locator, then an empty list is returned.
